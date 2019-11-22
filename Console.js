@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class Console extends Component {
+class Console extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
