@@ -18,12 +18,6 @@ class Console extends React.Component {
         return(
             <div>
                 <label htmlFor="Console">Console</label>
-                <Console index={this.state.index} line={this.state.currentLine} />
-                {this.state.consoleHistory.map((index, line) =>
-                    <Console index={this.state.index} line={this.state.currentLine}>
-                        {this.state.index} : {this.state.currentLine}
-                    </Console>
-                )}
             </div>
         )
     }
