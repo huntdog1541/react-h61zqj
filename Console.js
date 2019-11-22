@@ -10,9 +10,9 @@ class Console extends React.Component {
         }
     }
 
-    addLine(line) {
+    /* addLine(line) {
         this.setState(state => ({ index: (state.index + 1), currentLine: line, history: [state.history, state.currentLine] }));
-    }
+    }*/
 
     render() {
         return(
